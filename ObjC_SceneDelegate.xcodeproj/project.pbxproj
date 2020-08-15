@@ -84,16 +84,16 @@
 		89A3ABF124E7CB4F00732A05 /* ObjC_SceneDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				89A3AC0324E7CB5300732A05 /* Info.plist */,
+				89A3ABFE24E7CB5300732A05 /* Assets.xcassets */,
+				89A3AC0024E7CB5300732A05 /* LaunchScreen.storyboard */,
+				89A3ABFB24E7CB4F00732A05 /* Main.storyboard */,
 				89A3ABF224E7CB4F00732A05 /* AppDelegate.h */,
 				89A3ABF324E7CB4F00732A05 /* AppDelegate.m */,
 				89A3ABF524E7CB4F00732A05 /* SceneDelegate.h */,
 				89A3ABF624E7CB4F00732A05 /* SceneDelegate.m */,
 				89A3ABF824E7CB4F00732A05 /* ViewController.h */,
 				89A3ABF924E7CB4F00732A05 /* ViewController.m */,
-				89A3ABFB24E7CB4F00732A05 /* Main.storyboard */,
-				89A3ABFE24E7CB5300732A05 /* Assets.xcassets */,
-				89A3AC0024E7CB5300732A05 /* LaunchScreen.storyboard */,
-				89A3AC0324E7CB5300732A05 /* Info.plist */,
 				89A3AC0424E7CB5300732A05 /* main.m */,
 			);
 			path = ObjC_SceneDelegate;
@@ -208,10 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A3ABFA24E7CB4F00732A05 /* ViewController.m in Sources */,
 				89A3ABF424E7CB4F00732A05 /* AppDelegate.m in Sources */,
-				89A3AC0524E7CB5300732A05 /* main.m in Sources */,
 				89A3ABF724E7CB4F00732A05 /* SceneDelegate.m in Sources */,
+				89A3ABFA24E7CB4F00732A05 /* ViewController.m in Sources */,
+				89A3AC0524E7CB5300732A05 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
