@@ -27,7 +27,7 @@
                                 <rect key="frame" x="59" y="82" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -54,19 +54,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Page 2" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iSZ-gJ-JgY">
-                                <rect key="frame" x="69" y="95" width="240" height="128"/>
+                                <rect key="frame" x="87" y="83" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="iSZ-gJ-JgY" firstAttribute="top" secondItem="AIg-TU-AXl" secondAttribute="top" constant="51" id="1PA-0t-IhC"/>
-                            <constraint firstItem="AIg-TU-AXl" firstAttribute="trailing" secondItem="iSZ-gJ-JgY" secondAttribute="trailing" constant="105" id="OJf-oH-dkk"/>
-                            <constraint firstItem="iSZ-gJ-JgY" firstAttribute="leading" secondItem="AIg-TU-AXl" secondAttribute="leading" constant="69" id="VKk-wm-VPc"/>
-                            <constraint firstItem="AIg-TU-AXl" firstAttribute="bottom" secondItem="iSZ-gJ-JgY" secondAttribute="bottom" constant="639" id="caj-5A-p3h"/>
+                            <constraint firstItem="iSZ-gJ-JgY" firstAttribute="top" secondItem="AIg-TU-AXl" secondAttribute="top" constant="39" id="1PA-0t-IhC"/>
+                            <constraint firstItem="AIg-TU-AXl" firstAttribute="trailing" secondItem="iSZ-gJ-JgY" secondAttribute="trailing" constant="87" id="OJf-oH-dkk"/>
+                            <constraint firstItem="iSZ-gJ-JgY" firstAttribute="leading" secondItem="AIg-TU-AXl" secondAttribute="leading" constant="87" id="VKk-wm-VPc"/>
+                            <constraint firstItem="AIg-TU-AXl" firstAttribute="bottom" secondItem="iSZ-gJ-JgY" secondAttribute="bottom" constant="651" id="caj-5A-p3h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AIg-TU-AXl"/>
                     </view>

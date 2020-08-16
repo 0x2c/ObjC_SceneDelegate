@@ -103,12 +103,7 @@
 				89A3ABF624E7CB4F00732A05 /* SceneDelegate.m */,
 				89A3AC1E24E7E31C00732A05 /* Pager.h */,
 				89A3AC1F24E7E31C00732A05 /* Pager.m */,
-				89A3AC2724E8D6BE00732A05 /* PagerPageWrapper.h */,
-				89A3AC2824E8D6BE00732A05 /* PagerPageWrapper.m */,
-				89A3AC2124E7F17100732A05 /* FirstPage.h */,
-				89A3AC2224E7F17100732A05 /* FirstPage.m */,
-				89A3AC2424E896B100732A05 /* SecondPage.h */,
-				89A3AC2524E896B100732A05 /* SecondPage.m */,
+				89A3AC2A24E8DEB200732A05 /* Pages */,
 				89A3AC0424E7CB5300732A05 /* main.m */,
 			);
 			path = ObjC_SceneDelegate;
@@ -121,6 +116,19 @@
 				89A3AC1024E7CB5300732A05 /* Info.plist */,
 			);
 			path = ObjC_SceneDelegateTests;
+			sourceTree = "<group>";
+		};
+		89A3AC2A24E8DEB200732A05 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				89A3AC2724E8D6BE00732A05 /* PagerPageWrapper.h */,
+				89A3AC2824E8D6BE00732A05 /* PagerPageWrapper.m */,
+				89A3AC2124E7F17100732A05 /* FirstPage.h */,
+				89A3AC2224E7F17100732A05 /* FirstPage.m */,
+				89A3AC2424E896B100732A05 /* SecondPage.h */,
+				89A3AC2524E896B100732A05 /* SecondPage.m */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,11 +233,11 @@
 			files = (
 				89A3ABF424E7CB4F00732A05 /* AppDelegate.m in Sources */,
 				89A3ABF724E7CB4F00732A05 /* SceneDelegate.m in Sources */,
-				89A3AC2324E7F17100732A05 /* FirstPage.m in Sources */,
 				89A3AC2024E7E31C00732A05 /* Pager.m in Sources */,
+				89A3AC2924E8D6BE00732A05 /* PagerPageWrapper.m in Sources */,
+				89A3AC2324E7F17100732A05 /* FirstPage.m in Sources */,
 				89A3AC2624E896B100732A05 /* SecondPage.m in Sources */,
 				89A3AC0524E7CB5300732A05 /* main.m in Sources */,
-				89A3AC2924E8D6BE00732A05 /* PagerPageWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
