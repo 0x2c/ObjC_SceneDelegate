@@ -5,16 +5,16 @@
 
 #import "SceneDelegate.h"
 
+
 @interface SceneDelegate ()
 
 @end
 
-@implementation SceneDelegate
 
+@implementation SceneDelegate
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
 }
-
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
 }
@@ -34,6 +34,4 @@
 
 - (void)sceneDidEnterBackground:(UIScene *)scene {
 }
-
-
 @end
