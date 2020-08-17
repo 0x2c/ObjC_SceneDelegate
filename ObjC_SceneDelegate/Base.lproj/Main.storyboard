@@ -43,6 +43,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="addNewItem:" destination="waH-1X-9Fc" eventType="touchUpInside" id="JZE-az-GNz"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0GH-Dt-MP1">
                                 <rect key="frame" x="20" y="145" width="374" height="717"/>
@@ -67,6 +70,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="paX-Dy-QP9"/>
                     </view>
+                    <connections>
+                        <outlet property="UL" destination="0GH-Dt-MP1" id="GoW-Pk-ofs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Acu-af-xEc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
